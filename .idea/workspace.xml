@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2953e8b5-7259-4d01-90ab-d1a8ddc7e3f7" name="Changes" comment="feat: add delivery order">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/ValidationGroups.java" afterDir="false" />
+    <list default="true" id="2953e8b5-7259-4d01-90ab-d1a8ddc7e3f7" name="Changes" comment="feat: validations and order routes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/assembler/EntregaAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/model/ClienteResumoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/model/DestinatarioModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/model/EntregaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/model/input/ClienteIdInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/model/input/DestinatarioInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/model/input/EntregaInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/common/ModelMapperConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-spring-algalog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-rest-spring-algalog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/controller/EntregaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/controller/EntregaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/exceptionhandler/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/exceptionhandler/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/exceptionhandler/Problema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/exceptionhandler/Problema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Destinatario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Destinatario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Entrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Entrega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/service/SolicitacaoEntregaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/service/SolicitacaoEntregaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.algaworks.algalog.api.model.input" />
       <recent name="com.algaworks.algalog.domain.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -122,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679577237717</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: validations and order routes">
+      <created>1679581448590</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679581448590</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +156,7 @@
     <MESSAGE value="feat: customizing request error message" />
     <MESSAGE value="feat: add Cliente business rule" />
     <MESSAGE value="feat: add delivery order" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add delivery order" />
+    <MESSAGE value="feat: validations and order routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: validations and order routes" />
   </component>
 </project>

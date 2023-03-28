@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2953e8b5-7259-4d01-90ab-d1a8ddc7e3f7" name="Changes" comment="feat: add Ocorrencias routes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/service/FinalizacaoEntregaService.java" afterDir="false" />
+    <list default="true" id="2953e8b5-7259-4d01-90ab-d1a8ddc7e3f7" name="Changes" comment="feat: add action no-crud - status order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/controller/EntregaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/api/controller/EntregaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Entrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Entrega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/algalog/domain/model/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679667330433</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: add action no-crud - status order">
+      <created>1679669305625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679669305625</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +169,7 @@
     <MESSAGE value="feat: validations and order routes" />
     <MESSAGE value="feat: order representation model" />
     <MESSAGE value="feat: add Ocorrencias routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Ocorrencias routes" />
+    <MESSAGE value="feat: add action no-crud - status order" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add action no-crud - status order" />
   </component>
 </project>

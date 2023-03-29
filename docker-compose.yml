@@ -1,0 +1,24 @@
+networks:
+  algalog-network:
+    driver: bridge
+
+services:
+  algalog-mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    ports:
+      - "3307:3306"
+    networks:
+      - algalog-network
+
+  algalog-api:
+    image: algalog-api
+    environment:
+      DB_HOST: "algalog-mysql"
+    ports:
+      - "8080:8080"
+    networks:
+      - algalog-network
+    depends_on:
+      - algalog-mysql

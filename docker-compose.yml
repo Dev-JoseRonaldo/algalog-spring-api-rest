@@ -13,7 +13,7 @@ services:
       - algalog-network
 
   algalog-api:
-    image: algalog-api
+    image: joseronaldo/algalog-api
     environment:
       DB_HOST: "algalog-mysql"
     ports:
